@@ -36,7 +36,7 @@
 ответа `Positive` и `Negative`.
 
 <p align="center">
-  <img src="source/img/chapter_01002.png" width="450">
+  <img src="source/img/chapter_01002.png">
 </p>
 
 
@@ -44,7 +44,7 @@
 
 Рассмотрим на реальном примере, как следует интерпретировать `Sensitivity` и `Specificity`.
 <p align="center">
-  <img src="source/img/chapter_01003.png" width="450">
+  <img src="source/img/chapter_01003.png">
 </p>
 
 - `Sensitivity`(`TPR`) - допустим, что в реальности есть 100 `Positive` пациентов. В таком случае, наш тест определит
