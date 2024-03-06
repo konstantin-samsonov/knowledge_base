@@ -12,10 +12,6 @@
 Предположим, что у нас есть четыре пациента и два разных теста для диагностирования Covid.
 Наша задача - понять какой тест работает лучше.
 
-<center>
-  <img src="source/img/chapter_01001.png" width="450">
-</center>
-
 <p align="center">
   <img src="source/img/chapter_01001.png" width="450">
 </p>
@@ -39,16 +35,18 @@
 Что же делать, что бы избежать такой ложной точности в оценки тестов? Считать точность теста отдельно для каждого типа
 ответа `Positive` и `Negative`.
 
-<center>
-  <img src="source/img/chapter_01002.png">
-</center>
+<p align="center">
+  <img src="source/img/chapter_01002.png" width="450">
+</p>
+
 
 <br>
 
 Рассмотрим на реальном примере, как следует интерпретировать `Sensitivity` и `Specificity`.
-<center>
-  <img src="source/img/chapter_01003.png">
-</center>
+<p align="center">
+  <img src="source/img/chapter_01003.png" width="450">
+</p>
+
 
 - `Sensitivity`(`TPR`) - допустим, что в реальности есть 100 `Positive` пациентов. В таком случае, наш тест определит
   __реальное наличие__ Covid только в 65% случаев (`True Positive`).
